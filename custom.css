@@ -18,7 +18,7 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 
 /* GLOBALS */
 body {background-color: #8B8B8B;}
-a {color: #6D5782;}
+a {color: #005398;}
 
 /* INTRO PAGE */
 /* .toolbar_info, .list-container {color: #2C2620;} */
@@ -94,3 +94,4 @@ div.output_stderr pre {color: #BEB6AE;}
  
 .cm-s-ipython .CodeMirror-matchingbracket { color: steelblue !important;}
 
+.breadcrumb>li { text-shadow: none; }
