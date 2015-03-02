@@ -8,3 +8,16 @@ The [base16](https://github.com/chriskempson/base16) and [base16 for IPython](ht
 Deploy with ``ln``:
 
 ``ln -s /home/will/git_repos/ipython-config/custom.css /home/will/.ipython/profile_default/static/custom/custom.css``
+``ln -s /home/will/git_repos/ipython-config/custom.js /home/will/.ipython/profile_default/static/custom/custom.js``
+
+To toggle the header just push ``t`` or execute the following in an ipython cell:
+
+```ipython
+%%javascript
+showHeader()
+```
+
+```ipython
+%%javascript
+hideHeader()
+```
